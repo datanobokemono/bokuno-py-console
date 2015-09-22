@@ -6,8 +6,7 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the relevant file
-with open(path.join(here, 'DESCRIPTION.rst'), encoding='utf-8') as f:
-    long_description = f.read()
+long_description = "Get your args from console! import bokuno_console to begin and use get_args() method."
 
 setup(
     name='bokuno-py-console',

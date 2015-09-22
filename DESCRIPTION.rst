@@ -1,4 +1,4 @@
 Bokuno Python Console
 =======================
 
-Bokuno-py-console helps python developers to easily get all the arguments from console as a python Dictionary.
+Get your args from console! import bokuno_console to begin and use get_args() method.
