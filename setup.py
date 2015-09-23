@@ -6,7 +6,7 @@ from os import path
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the relevant file
-long_description = "Get your args from console! import bokuno_console to begin and use get_args() method."
+long_description = "Get your args from console! import bokuno_console to begin and use get_args() method for python 3 (For python 2 import bokuno_console2)."
 
 setup(
     name='bokuno-py-console',
@@ -14,7 +14,7 @@ setup(
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.0.2',
+    version='0.0.3',
 
     description='Python console helper',
     long_description=long_description,

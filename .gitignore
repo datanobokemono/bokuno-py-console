@@ -58,4 +58,3 @@ target/
 
 # PyPI dist
 dist/
-*.egg-info
